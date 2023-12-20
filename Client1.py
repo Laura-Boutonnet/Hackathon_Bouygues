@@ -37,24 +37,24 @@ with col1:
 
     st.session_state.setdefault(
         'past', 
-        ["Bonjour je suis Paul, l'agent téléphonique de Bouygues Telecom. Comment puis-je vous aider?",
-        "Je vais regarder. Quel est le numéro téléphonique fixe relié à la box",
-        "Merci, êtes-vous bien Pierre Hamoir?",
-        "Parfait, je vais vous poser quelques questions pour mieux comprendre votre problème.\n Est-ce que les voyants de votre box sont correctement allumés",
+        ["Bonjour, je suis Paul, l'agent téléphonique de Bouygues Telecom ! Comment puis-je vous aider ?",
+        "Je vais regarder, quel est votre numéro de téléphone fixe relié à la box ?",
+        "Merci, êtes-vous bien Pierre Hamoir ?",
+        "Parfait, je vais vous poser quelques questions pour mieux comprendre votre problème.\nEst-ce que les voyants de votre box sont correctement allumés ?",
         "Est-ce que vous avez redémarrer votre box?",
-        "Merci pour ces informations, je lance l'appel vers l'un de nos conseillers spécialisés.\n Y'a t-il eu de grosses intempéries ou orage récemment?",
-        "Est-ce qu'il y a eu recemment des travaux dans votre quartier ?",
-        "Très bien, j'ai envoyé un récapitulatif à Laura, notre conseillère clientèle. Elle est en train de prendre connaissance de votre dossier et va récupérer l'appel de suite"]
+        "Merci. En parallèle, je contacte un de nos conseillers spécialisés.\nEn attendant, pouvez-vous me dire si vous avez subi de fortes intempéries ou orages récemment ?",
+        "Est-ce qu'il y a eu récemment des travaux dans votre quartier ?",
+        "Très bien, j'ai envoyé un récapitulatif à Laura notre conseillère clientèle qui est en train de prendre connaissance de votre dossier et qui va récupérer l'appel de suite."]
     )
     st.session_state.setdefault(
         'generated', 
         ["J'ai un problème wifi",
-         "0183643718",
-         "Oui, tout à fait",
-         "Oui ils le sont",
-         "Oui tout à fait",
+         "01 83 64 37 18",
+         "Oui, c'est ça",
+         "Oui ils sont allumées",
+         "Oui, je l'ai redémarrer",
          "Non, il n'y en a pas eu",
-         "Je ne sais pas",
+         "Ah, je ne sais pas.",
          ""]
     )
 
